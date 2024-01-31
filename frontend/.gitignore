@@ -5,6 +5,15 @@
 /.pnp
 .pnp.js
 
+# Ignore environment variable files
+.env
+.env.local
+.env.*.local
+
+# Ignore environment variable override files
+.env.override
+.env.*.override
+
 # testing
 /coverage
 
